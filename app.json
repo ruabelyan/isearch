@@ -20,6 +20,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-localization",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "ISearch uses your location to show sights and places around you and to draw routes to them."
+        }
+      ]
+    ]
   }
 }
